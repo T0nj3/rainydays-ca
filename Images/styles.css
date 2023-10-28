@@ -1,0 +1,137 @@
+/* Header styles */
+header {
+    background-color: black;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    max-width: 300px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+}
+
+.small-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: aliceblue;
+    position: absolute;
+    display: inline-block;
+   top: 22%;
+   right: 85%;
+}
+
+.Søk {
+    max-width: 20px;
+    height: auto;
+    position:absolute;
+    display: inline-block;
+   top: 21%;
+   right: 92%;
+}
+.white-line {
+    border: 0.5px solid white;
+    width: 10%;
+    position: absolute;
+    z-index: 1;
+    right: 1230px;
+    margin-top: 150px;
+}
+
+.login {
+    max-width: 20px;
+    position: absolute;
+    right: 200px;
+    margin-top: 100px;
+    
+
+}
+
+.hjerte {
+    max-width: 25px;
+    position: absolute;
+    right: 120px;
+    margin-top:100px;
+}
+
+.handlekurv {
+    max-width: 25px;
+    position: absolute;
+    right: 35px;
+    margin-top: 100px;
+}
+
+.white-line2 {
+    border: 0,1px solid white;
+    width: 15px;
+    position: absolute;
+    right: 80px;
+    margin-top: 110px;
+}
+
+.white-line3 {
+    border: 0,1px solid white;
+    width: 15px;
+    position: absolute;
+    right: 165px;
+    margin-top: 110px;
+}
+
+
+.banner {
+    height: 50px;
+ 
+}
+
+
+
+.slogan {
+    margin-top: 80px;
+    width: 100%;
+    text-align: center; /* Sentrerer innholdet horisontalt */
+}
+
+.slogan1 {
+    height: 600px;
+    width: 1000px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+    
+
+
+/* Space styles */
+.space {
+    width: 100%;
+    text-align: center;
+}
+
+/* Carousel styles */
+.carousel {
+    background-color: rgb(202, 202, 149);
+    height: 250px;
+    width: 800px;
+    margin: 0 auto;
+    /* Legg til ytterligere stiler for karusell-området om nødvendig */
+}
+
+/* Image styles */
+.image {
+    background-color: rgb(136, 136, 187);
+    height: 300px;
+    width: 800px;
+    margin: 0 auto;
+    /* Legg til ytterligere stiler for bildeområdet om nødvendig */
+}
+
+/* Footer styles */
+footer {
+    background-color: black;
+    height: 200px;
+}

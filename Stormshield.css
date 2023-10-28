@@ -1,0 +1,167 @@
+*::before *::after {
+    box-sizing: inherit;
+}
+
+body {
+box-sizing: border-box;
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    background: black;
+    color: white;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+}
+
+.search-icon {
+    position:relative;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.search-bar {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+
+}
+
+
+.logo {
+    position: absolute;
+    margin-left: 500px;
+    top: 50px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    left: 1250px;
+    top: 150px;
+    
+}
+
+.navigation {
+  font-size: small;
+  display: flex;
+  padding-top: 200px;
+  padding-left: 40px;
+  gap: 50px;
+  text-decoration: underline;
+}
+
+
+.stormshield-pic img {
+    position: absolute;
+    height: 600px;
+    width: 500px;
+    padding-left: 50px;
+    z-index: -1;
+}
+
+.arrow1 {
+    position: absolute;
+    font-size: 30px;
+    gap: 50px;
+    padding-left: 20px;
+    top: 750px;
+  
+}
+
+.arrow2 {
+    position: absolute;
+    font-size: 30px;
+    gap: 50px;
+    top: 750px;
+    left: 550px;
+}
+
+.stormshield-des {
+    position: relative;
+    align-items: center;
+    gap: 5px;
+}
+
+.stormshield-des h1 {
+    position: relative;
+    font-family: inter, ;
+    font-size: 20px;
+    left: 850px;
+   
+}
+
+.stormshield-des h2 {
+    position: relative;
+    font-family: inter, ;
+    left: 850px;
+    font-weight: 300;
+}
+
+.stormshield-des h3 {
+    position: relative;
+    font-family: inter, ;
+    left: 850px;
+    font-weight: 800;
+}
+
+.stormshield-des p {
+    position: relative;
+    font-family: inter, ;
+    left: 850px;
+    font-weight: 100;
+}
+
+.colors {
+    display: flex;
+    padding-left: 800px;
+    padding-top: 20px;
+
+}
+
+.colors img {
+    margin: 20px;
+   
+}
+
+.colors .orange {
+    width: 60px;
+    height: 60px;
+}
+
+.colors .green {
+    width: 50px;
+    height: 50px;
+}
+
+.colors .blue {
+    width: 50px;
+    height: 50px;
+}
+
+.colors .pink {
+    width: 50px;
+    height: 50px;
+}
+
+.color-text p {
+    position: absolute;
+    left: 800px;
+    font-family: inter, ;
+    font-weight: 100;
+    text-decoration: underline;
+}

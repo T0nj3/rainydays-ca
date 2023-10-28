@@ -1,0 +1,332 @@
+*::before *::after {
+    box-sizing: inherit;
+}
+
+body {
+box-sizing: border-box;
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    background: black;
+    color: white;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-icon {
+    position:relative;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.search-bar {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+
+}
+
+
+.logo {
+    position: absolute;
+    margin-left: 500px;
+    top: 50px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    left: 1250px;
+    top: 150px;
+    
+}
+
+.women-men-sale {
+    position: absolute;
+    display: flex;
+    gap: 15rem;
+    align-items: center;
+    margin-left: 320px;
+    padding: 20px;
+
+}
+
+.women button {
+    position: relative;
+    background-color: transparent;
+    color: black;
+    font-family: inter;
+    font-size: medium;
+    text-align:
+    height: 10px;
+    width: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px
+      
+}
+
+.MEN button {
+    position: relative;
+    background-color: transparent;
+    color: black;
+    font-family: inter;
+    font-size: medium;
+    text-align:
+    height: 40px;
+    width: 100px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      border-radius: 10px
+}
+
+.SALE button {
+    position: relative;
+    background-color: transparent;
+    color: red;
+    font-family: inter;
+    font-size: medium;
+    text-align:
+    height: 40px;
+    width: 100px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+      border-radius: 10px
+}
+
+
+
+.slogan p {
+    font-family: saira condenced,;
+    font-size: 60px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 600px;
+    left: 350px;
+}
+
+.slogan-pic {
+    position: absolute;
+    align-items: center;
+    width: 1000px;
+    height: 700px;
+    left: 250px;
+    top: 400px;
+    border-radius: 20px;
+}
+
+.overlay {
+    position: absolute;
+    align-items: center;
+    width: 1000px;
+    height: 700px;
+    left: 250px;
+    top: 400px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.shop-now button a {
+    position: absolute;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-family: saira condenced,;
+    font-size: 15px;
+    height: 50px;
+    width: 100px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    top: 1000px;
+    left: 700px;
+  
+}
+
+.component {
+    position: relative;
+    width: 414px;
+    height: 492px;
+    overflow: hidden;
+    top: 1000px;
+    left: 800px;
+  }
+  
+  .component .rainydays {
+    position: absolute;
+    width: 414px;
+    height: 492px;
+    top: -1475px;
+    left: 549px;
+    object-fit: cover;
+  }
+  
+  .component .rainydays-jacket {
+    position: absolute;
+    width: 414px;
+    height: 492px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .component img {
+    position: absolute;
+    width: 414px;
+    height: 492px;
+    object-fit: cover;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .new-in p {
+    font-family: inter,;
+    font-size: 20px;
+    position: absolute;
+    top: 1100px;
+    left: 710px;
+  }
+
+  .line {
+    border: 0,1px solid black;
+    width: 700px;
+    align-items: center;
+    left: 0px;
+    position: relative;
+    top: 900px;
+  }
+
+  .news-text p {
+    font-family: saira condenced,;
+    font-size: 40px;
+    font-weight: lighter;
+    position: absolute;
+    top: 1300px;
+    left: 250px;
+  } 
+
+.stay-dry {
+    display: flex;
+    align-items: center;
+    gap: 0px;
+    position: absolute;
+    top: 1900px;
+    left: 250px;
+}
+
+  .stay-dry .stay-dry1 {
+    width: 500px;
+    height: 500px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.stay-dry .stay-dry2 {
+    width: 500px;
+    height: 500px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.overlay1 {
+    position: absolute;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    top: 1900px;
+    left: 250px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.latest p {
+    font-family: inter,medium;
+    font-size: 35px;
+    color: white;
+    align-items: center;
+    position: relative;
+    left: 150px;
+    top: 150px;
+}
+
+.about-us .about-pic {
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    top: 1700px;
+    left: 250px;
+    border-radius: 20px;
+}
+
+.about-us p {
+    font-family: inter,;
+    font-size: 30px;
+    font-weight: lighter;
+    position: relative;
+    top: 1650px;
+    left: 400px;
+}
+
+.about-us button {
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-family: inter,;
+    position: relative;
+    top: 1650px;
+    left: 650px;
+}
+
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    top: 3100px;
+    height: 200px;
+  }
+
+.footer-items {
+    position: absolute;
+    display: flex;
+    gap: 400px;
+    padding-left: 30px;
+}
+
+.footer-icons {
+    position: absolute;
+    gap: 10px;
+   display: flex;
+}
+
+.follow-us {
+    font-family: inter, ;
+    font-weight: lighter;
+}
+
+.help-info {
+    font-family: inter, ;
+    font-weight: lighter;
+}
+
+.about {
+    font-family: inter,;
+    font-weight: lighter;
+}
+  

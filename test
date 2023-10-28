@@ -1,0 +1,31 @@
+<li><a href="#">XS</a></li>
+<li><a href="#">S</a></li>
+<li><a href="#">M</a></li>
+<li><a href="#">L</a></li>
+<li><a href="#">XL</a></li>
+
+
+
+
+<img class="twitter" src="Images/Twitter.png" alt="twitter">
+<img class="instagram" src="Images/Instagram.png" alt="instagram">
+<img class="youtube" src="Images/Youtube.png" alt="youtube">
+<img class="tiktok" src="Images/Tiktok.png" alt="tiktok">
+<img class="facebook" src="Images/Facebook.png" alt="facebook">
+
+
+
+<details id="product-discription">
+    <summary>Product Description
+
+    </summary>
+    <nav>
+        <ul>
+            <li><a href="#">XS</a></li>
+            <li><a href="#">S</a></li>
+            <li><a href="#">M</a></li>
+            <li><a href="#">L</a></li>
+            <li><a href="#">XL</a></li>
+        </ul>
+    </nav>
+</details>

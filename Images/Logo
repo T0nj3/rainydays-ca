@@ -1,0 +1,9 @@
+/* RainyDays_Logo 3 */
+
+position: absolute;
+width: 381px;
+height: 150px;
+left: calc(50% - 381px/2 - 0.5px);
+top: 92px;
+
+background: url(RainyDays_Logo.png);
