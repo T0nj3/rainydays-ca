@@ -1,0 +1,551 @@
+*::before *::after {
+    box-sizing: inherit;
+}
+
+body {
+box-sizing: border-box;
+margin: 0;
+font-family: 'Times New Roman', Times, serif;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    background: black;
+    color: white;
+    align-items: center;
+    padding: 1rem;
+    display: flex;
+}
+
+.search-icon {
+    position:relative;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.search-bar {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+
+
+}
+
+
+.logo {
+    position: absolute;
+    margin-left: 500px;
+    top: 50px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 2rem;
+    position: absolute;
+    left: 1250px;
+    top: 150px;
+    
+}
+
+
+
+.shipping  {
+    position: absolute;
+    padding-top: 30px;
+    left: 400px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.payment {
+    position: absolute;
+    padding-top: 30px;
+    left: 650px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.order-review {
+    position: absolute;
+    padding-top: 30px;
+    left: 900px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+
+.circle1 {
+    position: absolute;
+    padding-top: 50px;
+    left: 370px;
+    font-size: 20px;
+}
+
+.circle2 {
+    position: absolute;
+    padding-top: 50px;
+    left: 620px;
+    font-size: 20px;
+}
+
+.circle3 {
+    position: absolute;
+    padding-top: 50px;
+    left: 870px;
+    font-size: 20px;
+}
+
+.box1 {
+    position: absolute;
+    border: 1px solid black; 
+    width: 500px; 
+    height: 200px; 
+    background-color: white;
+    line-height: 100px; 
+    top: 450px;
+    left: 50px;
+    z-index: -1;
+}
+
+.promo-code-box h1 {
+    position: absolute;
+    font-size: 20px;
+    top: 450px;
+    left: 70px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.custom-label-promo {
+    position: absolute;
+    top: 560px;
+    left: 70px;
+    font-size: 10px;
+}
+
+.custom-input-promo {
+    position: absolute;
+    top: 580px;
+    left: 70px;
+    height: 20px;
+}
+
+.promo-apply button {
+position: absolute;
+background-color: black;
+color: white;
+height: 27px;
+top: 580px;
+left: 210px;
+}
+
+.box2 {
+    position: absolute;
+    border: 1px solid black; 
+    width: 400px; 
+    height: 300px; 
+    background-color: white;
+    line-height: 100px; 
+    top: 450px;
+    left: 950px;
+    z-index: -1;
+}
+
+.shipping-cart img {
+    position: absolute;
+    width: 150px;
+    height: 200px;
+    left: 970px;
+    top: 500px;
+}
+
+.shipping-cart h1 {
+    position:absolute;
+    left: 1150px;
+    top: 500px;
+    font-size: 20px;
+}
+
+.shipping-cart h2 {
+    position:absolute;
+    left: 1150px;
+    top: 530px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.shipping-cart p {
+    position:absolute;
+    left: 1170px;
+    top: 570px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.shipping-cart h3 {
+    position:absolute;
+    left: 1100px;
+    top: 450px;
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.box3 {
+    position: absolute;
+    border: 1px solid black; 
+    width: 900px; 
+    height: 600px; 
+    background-color: white;
+    line-height: 100px; 
+    top: 800px;
+    left: 50px;
+    z-index: -1;
+}
+
+.custom-input-first-name {
+    position: absolute;
+    top: 950px;
+    left: 100px;
+    height: 40px;
+    width: 300px;
+}
+
+.custom-label-first-name {
+    position: absolute;
+    top: 930px;
+    left: 100px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.custom-input-last-name {
+    position: absolute;
+    top: 1050px;
+    left: 100px;
+    height: 40px;
+    width: 300px;
+}
+
+.custom-label-last-name {
+    position: absolute;
+    top: 1030px;
+    left: 100px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.custom-input-country {
+    position: absolute;
+    top: 1150px;
+    left: 100px;
+    height: 40px;
+    width: 300px;
+}
+
+.custom-label-country {
+    position: absolute;
+    top: 1130px;
+    left: 100px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.custom-input-phone {
+    position: absolute;
+    top: 1250px;
+    left: 100px;
+    height: 40px;
+    width: 300px;
+}
+
+.custom-label-phone {
+    position: absolute;
+    top: 1230px;
+    left: 100px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.custom-input-adress {
+    position: absolute;
+    top: 950px;
+    left: 500px;
+    height: 40px;
+    width: 300px;
+}
+
+.custom-label-adress {
+    position: absolute;
+    top: 930px;
+    left: 500px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.custom-input-street {
+    position: absolute;
+    top: 1050px;
+    left: 500px;
+    height: 40px;
+    width: 300px;
+}
+
+.custom-label-street {
+    position: absolute;
+    top: 1030px;
+    left: 500px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.custom-input-post {
+    position: absolute;
+    top: 1150px;
+    left: 500px;
+    height: 40px;
+    width: 150px;
+}
+
+.custom-label-post {
+    position: absolute;
+    top: 1130px;
+    left: 500px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.custom-input-city {
+    position: absolute;
+    top: 1150px;
+    left: 700px;
+    height: 40px;
+    width: 100px;
+}
+
+.custom-label-city {
+    position: absolute;
+    top: 1130px;
+    left: 700px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.box4 {
+    position: absolute;
+    border: 1px solid black; 
+    width: 400px; 
+    height: 400px; 
+    background-color: white;
+    line-height: 100px; 
+    top: 1500px;
+    left: 50px;
+    z-index: -1;
+}
+
+
+
+.box5 {
+    position: absolute;
+    border: 1px solid black; 
+    width: 400px; 
+    height: 400px; 
+    background-color: white;
+    line-height: 100px; 
+    top: 1500px;
+    left: 550px;
+    z-index: -1;
+}
+
+.shipping-box h1 {
+    position: absolute;
+    top: 1520px;
+    left: 200px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.custom-input-shipping-email {
+    position: absolute;
+    top: 1650px;
+    left: 100px;
+    height: 30px;
+    width: 250px;
+}
+
+.custom-label-shipping-email {
+    position: absolute;
+    top: 1630px;
+    left: 100px;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.shipping-box h2 {
+    position: absolute;
+    top: 1720px;
+    left: 200px;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: oblique;
+    text-decoration:wavy;
+}
+
+.enter-manually button {
+    position: absolute;
+    background-color: gray;
+    color: black;
+    border: 0 solid;
+    width: 250px;
+    top: 1800px;
+    left: 100px;
+    height: 30px;
+   
+}
+
+.order-summary-text1 h1 {
+    position: absolute;
+    top: 1520px;
+    left: 670px;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.order-summary-text1 h2 {
+    position: absolute;
+    top: 1620px;
+    left: 600px;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.order-summary-text1 h3 {
+    position: absolute;
+    top: 1650px;
+    left: 600px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.order-summary-text1 h4 {
+    position: absolute;
+    top: 1680px;
+    left: 600px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.order-summary-text2 h1 {
+    position: absolute;
+    top: 1655px;
+    left: 855px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.order-summary-text2 h2 {
+    position: absolute;
+    top: 1685px;
+    left: 855px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.summary-line {
+    position: absolute;
+    top: 1750px;
+    left: 600px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.summary-proceed h1 {
+    position: absolute;
+    top: 1780px;
+    left: 600px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.summary-proceed h2 {
+    position: absolute;
+    top: 1780px;
+    left: 855px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.summary-proceed button {
+    position: absolute;
+    top: 1850px;
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 300px;
+    left: 600px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.visa-etc img {
+    position: absolute;
+    top: 2000px;
+    left: 50px;
+    width: 1300px;
+}
+
+
+
+footer {
+    position: absolute;
+    left: 0;
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    top: 2200px;
+}
+
+.footer-items {
+    position: absolute;
+    display: flex;
+    gap: 400px;
+    padding-left: 30px;
+}
+
+.footer-icons {
+    position: absolute;
+    gap: 10px;
+   display: flex;
+}
+
+.follow-us {
+    font-family: inter, ;
+    font-weight: lighter;
+}
+
+.help-info {
+    font-family: inter, ;
+    font-weight: lighter;
+}
+
+.about {
+    font-family: inter,;
+    font-weight: lighter;
+}

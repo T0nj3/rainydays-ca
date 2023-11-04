@@ -80,6 +80,7 @@ header {
     gap: 50px;
     padding-left: 20px;
     top: 750px;
+    cursor: pointer;
   
 }
 
@@ -89,6 +90,7 @@ header {
     gap: 50px;
     top: 750px;
     left: 550px;
+    cursor: pointer;
 }
 
 .stormshield-des {
@@ -128,7 +130,7 @@ header {
 
 .colors {
     display: flex;
-    padding-left: 800px;
+    padding-left: 850px;
     padding-top: 20px;
 
 }
@@ -141,6 +143,7 @@ header {
 .colors .orange {
     width: 60px;
     height: 60px;
+    cursor: pointer;
 }
 
 .colors .green {
@@ -160,8 +163,222 @@ header {
 
 .color-text p {
     position: absolute;
-    left: 800px;
+    left: 850px;
     font-family: inter, ;
     font-weight: 100;
     text-decoration: underline;
+}
+
+.container {
+    display:contents;
+  }
+  
+  .box {
+    border: 1px solid #000;
+    padding: 15px;
+    margin: 10px;
+    width: 350px;
+    cursor: pointer;
+    margin-left: 850px;
+  
+  }
+
+  .add-to-cart button {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    left: 850px;
+    width: 383px;
+    height: 50px;
+    cursor: pointer;
+  }
+
+  .you-may-also p {
+    position: absolute;
+    padding-left: 42%;
+    top: 1250px;
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .you-may-also1 img {
+    height: 300px;
+    position: absolute;
+    top:  1400px;
+    padding-left: 100px;
+    cursor: pointer;
+  }
+
+  .you-may-also1 h1 {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 700;
+    padding-left: 100px;
+    top: 1700px;
+  }
+
+  .you-may-also1 h2 {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 400;
+    padding-left: 100px;
+    top: 1720px;
+  }
+
+  .you-may-also1 p {
+    position: absolute;
+    color: red;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 400;
+    padding-left: 250px;
+    top: 1700px;
+  }
+
+  .you-may-also2 img {
+    height: 310px;
+    position: absolute;
+    top:  1400px;
+    padding-left: 450px;
+  }
+
+  .you-may-also2 h1 {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 700;
+    padding-left: 450px;
+    top: 1700px;
+  }
+
+  .you-may-also2 h2 {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 400;
+    padding-left: 450px;
+    top: 1720px;
+  }
+
+  .you-may-also2 p {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 400;
+    padding-left: 650px;
+    top: 1700px;
+  }
+
+  .you-may-also3 img {
+    height: 310px;
+    position: absolute;
+    top:  1400px;
+    padding-left: 800px;
+  }
+
+  .you-may-also3 h1 {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 700;
+    padding-left: 800px;
+    top: 1700px;
+  }
+
+  .you-may-also3 h2 {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 400;
+    padding-left: 800px;
+    top: 1720px;
+  }
+
+  .you-may-also3 p {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 400;
+    padding-left: 990px;
+    top: 1700px;
+  }
+
+  .you-may-also4 img {
+    height: 310px;
+    position: absolute;
+    top:  1400px;
+    padding-left: 1100px;
+  }
+
+  .you-may-also4 h1 {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 700;
+    padding-left: 1120px;
+    top: 1700px;
+  }
+
+  .you-may-also4 h2 {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 400;
+    padding-left: 1120px;
+    top: 1720px;
+  }
+
+  .you-may-also4 p {
+    position: absolute;
+    font-size: 15px;
+    font-family: inter,;
+    font-weight: 400;
+    padding-left: 1300px;
+    top: 1700px;
+  }
+
+
+footer {
+    position: absolute;
+    bottom: -190%;
+    left: 0;
+    height: 200px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-items {
+    position: absolute;
+    display: flex;
+    gap: 400px;
+    padding-left: 30px;
+}
+
+.footer-icons {
+    position: absolute;
+    gap: 10px;
+   display: flex;
+}
+
+.follow-us {
+    font-family: inter, ;
+    font-weight: lighter;
+}
+
+.help-info {
+    font-family: inter, ;
+    font-weight: lighter;
+}
+
+.about {
+    font-family: inter,;
+    font-weight: lighter;
 }
